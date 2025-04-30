@@ -1,0 +1,116 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #000;
+}
+
+header {
+    padding: 1em 0.5em;
+}
+
+h1 {
+    max-width: 7em;
+    padding: 1em 0;
+}
+
+@media screen and (min-width: 38em) {
+    nav ul li {
+        display: inline;
+    }
+    header {
+        padding: 1em 0;
+    }
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0.2em 1em 0 0;
+}
+
+nav ul li a {
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #2e6689;
+}
+
+div.container {
+    max-width: 38em;
+    margin: auto;
+}
+
+h2 {
+    font-weight: bold;
+    font-family: serif;
+    color: #2e6689;
+    padding: 0.5em 0.3rem 0;
+    font-size: 2.7em;
+}
+
+section.secondary h2 {
+    font-size: 1.6em;
+}
+
+section.tertiary h2 {
+    font-size: 1.1em;
+    padding: 0.1em 0;
+}
+
+section.tertiary p {
+    padding: 0.1em 0;
+}
+
+p {
+    font-family: sans-serif;
+    padding: 0.3em;
+    line-height: 1.2em;
+    margin-bottom: 1em;
+}
+
+aside p {
+    padding: 0.2em;
+}
+
+aside {
+    margin-top: 1em;
+    padding: 0.7rem;
+    background-color: #c4c0e5;
+}
+
+aside section.secondary h2 {
+    font-size: 1.2em;
+    padding: 0.3em 0.2em 0.1em;
+}
+
+figcaption {
+    font-style: italic;
+    font-family: sans-serif;
+    color:#676767;
+    padding: 0.3em 0.2em 0.5em;
+}
+
+section {
+    padding: 0.3rem 0 1rem 0;
+    margin-bottom: 1em;
+}
+
+section.tertiary {
+    border-top: 1px solid #2e6689;
+    margin: 0.4em;
+}
+
+footer {
+    background-color: #2e6689;
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding: 0.3rem;
+    color: #ffffff;
+}
