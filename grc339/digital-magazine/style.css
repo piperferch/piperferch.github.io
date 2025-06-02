@@ -26,9 +26,24 @@ header {
     padding: 1em 0.5em;
 }
 
+div.form_container h2 {
+    padding: 0.2em 0;
+}
+
 h1 {
     max-width: 7em;
-    padding: 1em 0;
+    margin: 1em 0;
+}
+
+h4 {
+    font-family: "futura-pt-bold", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #7da23c;
+    padding: 0.1em 0;
+    font-size: 1.3em;
+    line-height: 1em;
+    text-transform: uppercase;
 }
 
 div.photo_container h2 {
@@ -46,16 +61,16 @@ div.photo_container img {
     max-height: 48em;
 }
 
-/* div.photo_container {
+div.photo_container {
     max-width: 60em;
     margin: 0 auto;
     padding: 1em;
-} */
+}
 
 div.photo_container main {
     position: relative;
     overflow: hidden;
-    padding-bottom: calc(100% + 17em);
+    padding-bottom: calc(100% + 20em);
 }
 
 div.photo_container figure {
@@ -130,6 +145,11 @@ h3 {
     color: #a2633c;
     padding-bottom: 0.3em;
     font-size: 1.7em;
+    line-height: 1em;
+}
+
+div.container {
+    margin: 0.2em 0.5em;
 }
 
 section.secondary h2 {
@@ -165,7 +185,7 @@ aside {
 }
 
 aside section.secondary h2 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     padding: 0.3em 0.2em 0.1em;
 }
 
@@ -185,6 +205,10 @@ section {
 section.tertiary {
     border-top: 1px solid #7da23c;
     margin: 0 0.4em 0.4em;
+}
+
+div.form_container {
+    padding: 0 0.5em;
 }
 
 @media screen and (min-width: 38em) {
@@ -407,4 +431,59 @@ textarea {
     margin: auto;
   }
 
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    h1 {  
+        background-image: url("LogoWWdark.svg");  
+        background-repeat: no-repeat;  
+        background-size: contain;
+        } 
+
+    h1 img {  
+        opacity: 0;
+        }  
+    
+    footer {
+        background-color: #b3d17f;
+        color: #27282a;
+    }
+
+    aside {
+        background-color: #773a1289;
+    }
+
+    body {
+        background-color: #27282a;
+    }
+
+    h2, h4 {
+        color: #b3d17f;
+    }
+
+    figcaption {
+        color: #ad97b2;
+    }
+    
+    p, label {
+        color: rgb(221, 221, 221)
+    }
+
+    textarea {
+        background-color: #494a4c;
+        border-color: #717274;;
+        color: rgb(221, 221, 221)
+    }
+
+    div.photo_container h2 {
+        color: #b3d17f;
+    }
+
+    div.photo_container figcaption {
+        color: #98b8b8;
+    }
+
+    nav ul li a {
+        color: #88ded2ef;
+    }
 }
